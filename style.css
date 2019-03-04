@@ -1,0 +1,27 @@
+/*footer*/
+footer
+{
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+footer ul {
+	list-style-type: none; 
+}
+footer ul li a
+{
+	color: white;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+}
+	
+footer ul li a:hover
+{
+	border: 1px black solid;
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
