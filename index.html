@@ -109,8 +109,10 @@
         <!-- Card group #1 -->
         <div class="card-group">
           <!-- Card #1a -->
-          <div class="card">
-            <img src="https://loremflickr.com/326/373?random=4" class="card-img-top" alt="The Wizard">
+          <div class="card wanted">
+            <img src="http://images.innoveduc.fr/integration_gandalf.png" class="card-img-top" alt="The Wizard">
+            <p class ="reward">reward <span class="orange">1000</span> golden coins</p>
+            <p class="name">Gandalf</p>
             <div class="card-body">
               <h5 class="card-title">The Wizard</h5>
               <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
@@ -121,6 +123,7 @@
           <!-- card #1b -->
           <div class="card">
             <img src="https://loremflickr.com/326/373?random=5" class="card-img-top" alt="The Hobbit">
+            <p class="name">DEAD</p>
             <div class="card-body">
               <h5 class="card-title">Hobbit #3</h5>
               <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
@@ -129,8 +132,10 @@
           </div>
           <!-- end of card #1b -->
           <!-- card #1c -->
-          <div class="card">
+          <div class="card wanted">
             <img src="https://loremflickr.com/326/373?random=6" class="card-img-top" alt="The Dwarf">
+            <p class ="reward">reward <span class="orange">250</span> golden coins</p>
+            <p class="name">Gimli</p>
             <div class="card-body">
               <h5 class="card-title">Yummy Dwarf</h5>
               <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
@@ -221,13 +226,18 @@
   <!-- section #reward -->
   <section id="reward" >
     <div class="jumbotron">
-      <h1 class="display-4">I have captured one of them, how to get my reward?</h1>
-      <p class="lead">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <p><img src="https://via.placeholder.com/140" alt="Get your reward"/></p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a>
+      <div class="row">
+        <div class="col-md-10">
+          <h2 class="display-6 col-md-10">I have captured one of them, how to get my reward?</h2>
+          <p class="leadc ol-md-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <p class="col-md-2">
+          <img src="https://via.placeholder.com/140" alt="Get your reward">
+        </p>
+      </div>
+      <p style="text-align: center;"><a class="btn btn-primary btn-lg" href="#" role="button">Contact us</a></p>
     </div>
   </section>
   <hr class="my-4">
@@ -265,7 +275,7 @@
       <h5 class="card-header">Ring capabilities</h5>
       <div class="card-body">
         <p class="card-text">What can our master Sauron do with the ring?</p>
-        <table class="table table-striped">
+        <table class="table table-bordered">
           <thead>
             <tr>
               <th scope="col">Feature</th>
@@ -291,9 +301,8 @@
     </div><div class="card">
       <h5 class="card-header">Why the ring is awesome?</h5>
       <div class="card-body">
-        <h5 class="card-title">My preciiouuuuuuus! Hrk Hrkk, we want our preciouuuusss!</h5>
+        <h5 class="card-title">My preciiouuuuuuus! Hrk Hrkk, we want our preciouuuusss!<img src="https://via.placeholder.com/110" alt="Gollum" style="float: right;"></h5>
         <p class="card-text">Gollum</p>
-        <p><img src="https://via.placeholder.com/110" alt="Gollum"></p>
       </div>
     </div>
   </section>
@@ -301,16 +310,20 @@
   <hr>
   <!-- section #army -->
   <section id="army">
-    <div class="media">
-      <img src="..." class="mr-3" alt="...">
-      <div class="media-body">
-        <h5 class="mt-0"Join Mordor Army, we need you!></h5>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-        <img src="https://via.placeholder.com/140" alt="Join the army"/>
+    <div class="jumbotron">
+      <div class="row">
+        <p class="col-md-2">
+          <img src="https://via.placeholder.com/140" alt="Join Mordor Army">
+        </p>
+        <div class="col-md-10">
+          <h2 class="display-6 col-md-10">Join Mordor Army, we need you!</h2>
+          <p class="leadc ol-md-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+      </div>
+      <p style="text-align: center;"><a class="btn btn-primary btn-lg" href="#" role="button">More info on SauronRulesThemAll.com</a></p>
     </div>
-    </div>
-  <!-- button -->
-    <a href="#"><img src="https://via.placeholder.com/180x50?text=More" alt="Join Mordor Army"></a> 
   </section>
   <!-- end of section #army -->
   <hr>
@@ -320,15 +333,15 @@
    <!-- form -->
     <form>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Email address</label>
+        <label for="exampleFormControlInput1"></label>
         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlInput1">Name</label>
+        <label for="exampleFormControlInput1"></label>
         <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="name">
       </div>
       <div class="form-group">
-        <label for="exampleFormControlSelect1">Example select</label>
+        <label for="exampleFormControlSelect1"></label>
         <select class="form-control" id="exampleFormControlSelect1">
           <option>I have seen one of them</option>
           <option>I captured one of them</option>

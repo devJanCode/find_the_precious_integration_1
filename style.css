@@ -1,6 +1,60 @@
 body {
 	margin: auto 2%;
 }
+/*wanted*/
+.orange {color: orange;}
+div.wanted {
+	width: 500px;
+	height: 572px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	font-family: Arial;
+}
+.wanted img {
+	opacity: .5;
+	transition: .5s ease;
+}
+.reward {
+	position: absolute;
+	top: 2%;
+	left: 50%;
+	transform: translate(-50%, 0);
+	display: block;
+	width: 300px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 10px;
+	padding: 10px 30px;
+	text-align: center;
+	font-size: 40px;
+	transition: .5s ease;
+}
+.name {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	transition: .5s ease;
+}
+.dead {
+	position: absolute;
+	width: 100%;
+	top: 225px;
+	font-size: 70px;
+	text-align: center;
+	color: white;
+	transition: .5s ease;
+}
+.wanted:hover img {opacity: 1}
+.wanted:hover .reward {opacity: 0;}
+.wanted:hover .name {
+	/*top: 450px ;*/
+	top: 60%;
+	font-size: 40px;
+}
 /*footer*/
 footer
 {
